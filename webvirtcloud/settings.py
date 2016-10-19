@@ -76,14 +76,20 @@ TEMPLATE_DIRS = (
 
 ## WebVirtCloud settings
 
-# Wobsock port
+# Websock port
 WS_PORT = 6080
 
 # Websock host
 WS_HOST = '0.0.0.0'
 
-# Websock public port
+# Websock public host
 WS_PUBLIC_HOST = None
+
+# Websock public port
+WS_PUBLIC_PORT = 80
+
+# Websock public path
+WS_PUBLIC_PATH = '/novncd/'
 
 # Websock SSL connection
 WS_CERT = None

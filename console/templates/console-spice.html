@@ -182,9 +182,9 @@
 
     var uri;
     if (window.location.protocol === "https:") {
-        uri = 'wss://{{ ws_host }}:{{ ws_port }}';
+        uri = 'wss://{{ ws_host }}:{{ ws_port }}{{ ws_path }}';
     } else {
-        uri = 'ws://{{ ws_host }}:{{ ws_port }}';
+        uri = 'ws://{{ ws_host }}:{{ ws_port }}{{ ws_path }}';
     }
 
     var password = '{{ console_passwd }}';
